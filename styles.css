@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #1B2522;
 
     --title-duration: 500ms;
@@ -66,10 +66,9 @@ body {
 }
 
 .nav-list a {
-    margin-left: 2rem;
+    margin-left: 1rem;
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
     transition: color 100ms;
 }
 
@@ -337,8 +336,9 @@ body {
 
 @media (max-width: 700px) {
 
+
     .full-screen-hero {
-        background-position: 65%;
+        background-position-x: 65%;
     }
 
     .grid-container {
